@@ -103,7 +103,7 @@ body {
   justify-content: space-around;
 }
 .creation figure img {
-  width: 280px;
+  width: 100%;
   height: auto;
 }
 .exclusive {
@@ -136,7 +136,7 @@ body {
 }
 
 .white figure img {
-  width: 280px;
+  width: 100%;
   height: auto;
   background: #e5e2e2;
 }
@@ -162,7 +162,7 @@ body {
   font-size: 14px;
 }
 .perfumes figure img {
-  width: 280px;
+  width: 100%;
   height: auto;
   background: #e5e2e2;
 }
@@ -183,7 +183,7 @@ body {
 }
 
 .service figure img {
-  width: 400px;
+  width: 100%;
   height: auto;
 }
 
