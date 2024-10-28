@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Explore Louis Vuitton's luxurious collections of bags, accessories, clothing, and more for both men and women. Shop the latest fashion trends and iconic pieces." />
-    <meta name="keywords" content="Louis Vuitton,vuitton,louis,exclusive,news,latest,maison,email,mens,services,fashion" />
+    <meta name="keywords" content="Louis Vuitton, vuitton, louis, exclusive, news, latest, Women's Handbags, Maison's Creations, email, mens, services, fashion" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Louis Vuitton - Official International Website" />
     <meta property="og:description" content="Discover Louis Vuitton's latest collections for men and women, featuring exclusive fashion, accessories, and more." />
@@ -93,28 +93,28 @@
   letter-spacing: 0.015rem;
 }
 
-.showcase {
+#showcase {
   background: #333 url(./img/women.webp) no-repeat center center/cover;
   width: 100%;
   height: auto;
   color: #fff;
 }
 
-.showcase {
+#showcase {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: end;
   padding: 30px;
 }
-.showcase h2 {
+#showcase h2 {
   letter-spacing: 0.03rem;
   font-weight: 500px;
 }
-.showcase a {
+#showcase a {
   color: #fff;
 }
-#creation {
+.creation {
   text-align: center;
   font-size: 28px;
   font-weight: 500;
@@ -122,22 +122,22 @@
   padding: 20px;
   margin: 20px;
 }
-.creation figcaption {
+#creation figcaption {
   text-align: center;
   font-size: 14px;
 }
 
-.creation {
+#creation {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.creation figure img {
+#creation figure img {
   width: 100%;
   height: auto;
 }
-.exclusive {
+#exclusive {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -145,19 +145,19 @@
   padding-top: 20px;
 }
 
-.exclusive a {
+#exclusive a {
   color: #161616;
 }
-.exclusive figcaption {
+#exclusive figcaption {
   padding: 30px;
   margin-bottom: 20px;
 }
-.exclusive img {
+#exclusive img {
   width: 100%;
   height: auto;
 }
 
-.white {
+#white {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -166,20 +166,20 @@
   font-size: 14px;
 }
 
-.white figure img {
+#white figure img {
   width: 100%;
   height: auto;
   background: #e5e2e2;
 }
 
-.perfume figure img {
+#perfume figure img {
   width: 100%;
   height: auto;
 }
-.perfume a {
+#perfume a {
   color: #161616;
 }
-.perfume figcaption {
+#perfume figcaption {
   padding: 30px;
   margin-bottom: 20px;
   text-align: center;
@@ -205,7 +205,7 @@
 .grey {
   color: #838282;
 }
-.service {
+#service {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -213,23 +213,23 @@
   padding-bottom: 40px;
 }
 
-.service figure img {
+#service figure img {
   width: 100%;
   height: auto;
 }
 
-.service figcaption {
+#service figcaption {
   text-align: center;
   padding: 20px;
 }
-.service a {
+#service a {
   color: #333;
   margin: 20px 10px;
   padding-top: 30px;
   margin-top: 20px;
 }
 
-.contact {
+#contact {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -239,19 +239,19 @@
   padding: 20px 40px;
   font-size: 14px;
 }
-.contact .help ul li {
+#contact .help ul li {
   list-style: none;
   padding: 10px 0px;
 }
-.contact .help a {
+#contact .help a {
   color: #333;
 }
 
-.contact .services ul li {
+#contact .services ul li {
   list-style: none;
   padding: 10px 0px;
 }
-.contact .about ul li {
+#contact .about ul li {
   list-style: none;
   padding: 10px 0px;
 }
@@ -259,11 +259,11 @@
   text-transform: uppercase;
 }
 
-.contact .email ul li {
+#contact .email ul li {
   list-style: none;
   padding: 10px 0px;
 }
-.contact .email a {
+#contact .email a {
   color: #333;
 }
 .bottom {
@@ -306,7 +306,7 @@
     display: none;
   }
 
-  .contact {
+  #contact {
     display: flex;
     flex-direction: column;
   }
@@ -342,12 +342,12 @@
     margin: 0px;
     font-size: 14px;
   }
-  .service {
+  #service {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
   }
-  .service figure img {
+  #service figure img {
     width: 400px;
     height: auto;
   }
@@ -368,7 +368,7 @@
     font-size: 18px;
     padding-top: 10px;
   }
-  .showcase {
+  #showcase {
     text-align: center;
     font-size: 14px;
   }
@@ -416,6 +416,19 @@
           />
         </svg>
         <i class="bi bi-list">Menu<p class="hide">Menu</p></i>
+        <details>
+          <summary>Menu</summary>
+          <ul>
+            <li><a href="#showcase"></a></li>
+            <li><a href="#creation"></a></li>
+            <li><a href="#exclusive"></a></li>
+            <li><a href="#white"></a></li>
+            <li><a href="#perfume"></a></li>
+            <li><a href="#service"></a></li>
+            <li><a href="#contact"></a></li>
+          </ul>
+        </details>
+      
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -464,15 +477,15 @@
       </div>
     </div>
     <div class="container">
-      <div class="showcase">
+      <div id="showcase">
         <h2 class="small">WOMEN</h2>
         <h3 class="text">Exclusive Preorder: LV Ski 2024</h3>
         <a href="https://eu.louisvuitton.com/eng-e1/stories/le-damier" title="Discover the Collection">Discover the Collection</a>
       </div>
-      <div id="creation">
+      <div class="creation">
         <p>Explore a Selection of the Maison's Creations</p>
       </div>
-      <div class="creation">
+      <div id="creation">
         <figure>
           <img src="./img/women-handbag.webp" alt="Louis Vuitton Women's Handbag Collection" />
           <figcaption>Women's Handbags</figcaption>
@@ -509,7 +522,7 @@
           <figcaption>Men's Shoes</figcaption>
         </figure>
       </div>
-      <div class="exclusive">
+      <div id="exclusive">
         <figure>
           <figcaption>
             <h2 class="small">MEN</h2>
@@ -519,7 +532,7 @@
           <img src="./img/MEN.webp" alt="men" />
         </figure>
       </div>
-      <div class="white">
+      <div id="white">
         <figure>
           <img src="./img/Blouson.avif" alt="Blouson" />
           <figcaption>Fleece Blouson</figcaption>
@@ -537,7 +550,7 @@
           <figcaption>LV Crush Damoflage Pearls Beanie</figcaption>
         </figure>
       </div>
-      <article class="perfume">
+      <article id="perfume">
         <figure>
           <figcaption>
             <p class="small">PERFUMES</p>
@@ -573,7 +586,7 @@
           in thr Maison's iconic boxes
         </p>
       </div>
-      <div class="service">
+      <div id="service">
         <figure>
           <img src="./img/services.webp" alt="services" />
           <figcaption>Services <br /><a href="#">Contact Us</a></figcaption>
@@ -600,7 +613,7 @@
         </figure>
       </div>
 
-      <article class="contact">
+      <article id="contact">
         <div class="louis"><h2 class="text-primary">LOUIS VUITTON</h2></div>
         <details>
           <summary>Help</summary>
