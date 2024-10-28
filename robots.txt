@@ -1,6 +1,9 @@
 User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
+Disallow: /private/       # Blocks all agents from the private directory
+Disallow: /cart/          # Prevents indexing of the cart page
 
+# Allow full access to the main pages
+Allow: /
+
+# Sitemap location
 Sitemap: https://aydana06.github.io/lab7/sitemap.xml
-
